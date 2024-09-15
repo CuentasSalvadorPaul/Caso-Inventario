@@ -20,6 +20,7 @@ public class Inventario {
                 + "(C)Consulta de Stock");
         operacion=scanner.nextLine().toUpperCase();
         
+        
         switch(operacion){
             case "I":
                 System.out.println("\nSELECCIONE EL TIPO DE INGRESO\n"
